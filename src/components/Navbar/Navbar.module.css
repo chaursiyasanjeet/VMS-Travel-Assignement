@@ -24,3 +24,19 @@
     width: 2vw;
     height: 4vh;
 }
+
+@media (max-width:600px) {
+
+    .all_nav_menu>div {
+        display: none;
+    }
+
+    .all_nav_menu>div:last-of-type {
+        display: block;
+        display: flex;
+    }
+
+    .all_nav_menu>div>img {
+        width: 4vw;
+    }
+}
