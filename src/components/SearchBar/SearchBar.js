@@ -17,7 +17,7 @@ const SearchBar = () => {
     rooms: 0,
     petFriendly: false,
   });
-  const [destination, setDestination] = useState(null);
+  const [destination, setDestination] = useState("");
   const [checkIn, setCheckIn] = useState();
   const [checkOut, setCheckOut] = useState("");
   const [suggestPlace, setSuggestPlace] = useState(null);
