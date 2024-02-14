@@ -1,0 +1,25 @@
+.navbar_container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid lightgray;
+}
+
+
+.all_nav_menu {
+    display: flex;
+    gap: 4vw;
+}
+
+.all_nav_menu>div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.all_nav_menu>div>img {
+    width: 2vw;
+    height: 4vh;
+}

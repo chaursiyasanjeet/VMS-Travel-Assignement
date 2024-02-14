@@ -1,5 +1,6 @@
+import Homepage from "./pages/Homepage/Homepage";
 function App() {
-  return <div className="App">VMS</div>;
+  return <Homepage />;
 }
 
 export default App;
