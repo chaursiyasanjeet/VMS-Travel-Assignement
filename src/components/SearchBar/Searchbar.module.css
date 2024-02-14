@@ -1,0 +1,240 @@
+.searchcontainer {
+    margin: auto;
+    width: 90vw;
+    height: 12vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchcontainer>div {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.borderBetween {
+    height: 100%;
+    width: 1.5px;
+    background-color: grey;
+}
+
+.icons {
+    width: 10%;
+    height: 5vh;
+}
+
+
+.labels {
+    color: grey;
+    font-size: 1rem;
+}
+
+.destination {
+    padding: 1vw 0 1vw 1vw;
+    width: 25%;
+}
+
+.destination>div>input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.destination>div>input::placeholder {
+    color: black;
+}
+
+
+.autoCompletePlace {
+    position: relative;
+    bottom: 3vh;
+    left: 10vw;
+    padding: 0;
+    width: 13vw;
+    height: 50vh;
+    overflow: scroll;
+    padding: 1vh 1vw 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: none;
+}
+
+.autoCompletePlace>li {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.autoCompletePlace>li:hover {
+    background-color: lightgray;
+}
+
+
+
+
+.checkIn {
+    margin-right: 1vw;
+}
+
+.datePick {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.datePick::placeholder {
+    color: black;
+    font-weight: 550;
+}
+
+.checkIn>div>input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.checkOut>div>input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.GuestAndRoom>div>span {
+    color: black;
+    font-weight: 600;
+}
+
+.searchButton {
+    margin-right: 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(70, 47, 219);
+    color: white;
+    width: 7vw;
+    height: 7vh;
+    cursor: pointer;
+}
+
+.guestRoomPopup {
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    right: 10vw;
+    top: 44vh;
+    width: 30%;
+    height: max-content;
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    display: none
+}
+
+.guestRoomPopup>h5 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.guestRoomPopup>div {
+    height: 10vh;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guestRoomPopup>div>span {
+    font-weight: 500;
+}
+
+
+
+.numbersBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh
+}
+
+.numbersBox>div {
+    width: 2.2vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.numbersBox>div>span {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.numbersBox>div:nth-of-type(2n+1) {
+    border: 2px solid skyblue;
+    border-radius: 100%;
+    color: skyblue;
+}
+
+.numbersBox>div:nth-of-type(2n) {
+    border: 1.5px solid lightseagreen;
+    border-radius: 5px;
+}
+
+
+
+.petFriendly {
+    border-top: 2px solid lightgrey;
+}
+
+.petFriendly>div>span:first-of-type {
+    font-weight: 500;
+    display: block;
+}
+
+.petFriendly>div>span:last-of-type {
+    font-weight: 450;
+    letter-spacing: 0.0001rem;
+}
+
+input[type="checkbox"] {
+    width: 2.2vw;
+    height: 100%;
+}
+
+.buttons {
+    margin-top: 4vh;
+}
+
+.buttons>button:first-of-type {
+    border: none;
+    width: 7vw;
+    height: 70%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons>button:last-of-type {
+    width: 7vw;
+    height: 70%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(70, 47, 219);
+    color: white;
+    cursor: pointer;
+}

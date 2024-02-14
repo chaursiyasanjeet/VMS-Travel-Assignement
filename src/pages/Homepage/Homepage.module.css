@@ -1,4 +1,24 @@
+body {
+    background: rgb(244, 243, 243)
+}
+
 .container {
-    height: 100vh;
+    height: auto;
     width: 100vw;
+
+}
+
+.taglineText>p:first-of-type {
+    padding: 3vw 5vw 0 5vw;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+.taglineText>p:last-of-type {
+    padding: 0vw 5vw 2vw 5vw;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 0.8rem;
+    color: black;
 }
